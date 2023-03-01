@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7313348581116868124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7313348581116868122}
+  - component: {fileID: 7313348581116868123}
+  m_Layer: 0
+  m_Name: ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7313348581116868122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7313348581116868124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7313348581116868123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7313348581116868124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8351222932a9174b89dc738f7a7083d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - objectPrefab: {fileID: 815690187454770028, guid: a9ddd4e1975dae04595450e129ef0a48, type: 3}
+    poolSize: 100
+  - objectPrefab: {fileID: 7655620736478281838, guid: 85e980c8a9033b541bbdc81a0c73a767, type: 3}
+    poolSize: 20
+  - objectPrefab: {fileID: 8845016908480244068, guid: 0be3a4b3066a36c44a41f224ca660eb5, type: 3}
+    poolSize: 20
+  - objectPrefab: {fileID: 1036739346299063394, guid: e67c422e53122114ebffc5c3808ccef1, type: 3}
+    poolSize: 20
+  - objectPrefab: {fileID: 6538172034974542085, guid: 2e141706ee8f5584183e194962b42ae1, type: 3}
+    poolSize: 20
+  - objectPrefab: {fileID: 7649147457504370409, guid: 17631779d7f0aa54eb869a28b68698d1, type: 3}
+    poolSize: 20
